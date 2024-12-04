@@ -1,0 +1,49 @@
+body {
+    background-color: #24353F;
+    font-family: "Titillium Web", sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+a{
+    color: white;
+}
+.b-sh{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+h1{
+    color: #17a2b8;
+}
+input[type="email"], 
+input[type="password"],
+input[type="text"] {
+    color: #fff !important;
+    background-color: transparent !important;
+}
+input::placeholder{
+    color: rgb(182, 182, 182) !important;
+}
+input:focus{
+    box-shadow: 0 0 0 0 transparent !important;
+}
+.btn-outline-info:hover{
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b880;
+}
+.btn-outline-info:focus{
+    box-shadow: 0 0 0 .2rem #17a2b880;
+    color: #fff !important;
+}
+a{
+    text-decoration: none;
+}
+p a:hover{
+    text-decoration: underline;
+}
+#index{
+    height: 75vh;
+}
+.btn-outline-warning{
+    border: #ffc107 solid 1px;
+}
